@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@400;700;900&display=swap" rel="stylesheet">	
+	
+	<title>SIGMA Infamously Strange</title>
+	<style>
+		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 100vh;
+			margin: 0;
+			background-color: #343734;
+		}
+
+		.button-container {
+			display: flex;
+			gap: 20px;
+            flex-wrap: wrap;
+            justify-content: center;
+		}
+
+		.tile {
+            width: calc(50% - 30px);
+            height: 200px;
+			background-color: #3498db;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			border-radius: 10px;
+			cursor: pointer;
+			transition: all 0.3s ease-in-out;
+		}
+
+		.tile:hover {
+			background-color: #2980b9;
+			transform	: scale(1.10);
+		}
+
+		.tile a {
+			text-decoration: none;
+			color: #ffffff;
+			font-size	: 24px;
+			font-family : 'Fira Sans Condensed';
+			font-weight : 900;
+			text-align	: center;
+		}
+
+		.header {
+			position:relative;
+			font-family : 'Fira Sans Condensed';
+			color: #ffffff;
+			font-weight : 900;
+			font-size	: 48pt;
+			text-align	: center;
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="button-container">
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-incur.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-incur.html" target="_blank">Incursion<br>2</a>
+		</div>
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-old_incur.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-old_incur.html" target="_blank">Incursion<br>(Old)</a>
+		</div>
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-dd6.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-dd6.html" target="_blank">Dark<br>Dimension<br>6</a>
+		</div>
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-gamma.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-gamma.html" target="_blank">Gamma</a>
+		</div>
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-teams.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-teams.html" target="_blank">Teams</a>
+		</div>
+		<div class="tile" onclick="handleClick('https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-all_chars.html')">
+			<a href="https://fatcat4096.github.io/InfStrange2/SIGMA Infamously Strange-all_chars.html" target="_blank">All<br>Chars</a>
+		</div>
+	</div>
+
+	<script>
+		function handleClick(url) {
+			window.location.href = url;
+		}
+	</script>
+</body>
+</html>
